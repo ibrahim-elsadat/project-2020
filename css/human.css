@@ -1,0 +1,285 @@
+                            * {
+                                padding: 0 auto;
+                                margin: 0 auto;
+                            }
+                            
+                            .navbar-dark {
+                                background-color: rgba(21, 36, 65, 0.63);
+                            }
+                            
+                            #header-sm-6 {
+                                height: 500px;
+                                background-image: url(headerbackground.jpg);
+                            }
+                            
+                            .logo_header {
+                                width: 700px;
+                                margin-top: 100px;
+                                padding-left: 100px;
+                            }
+                            
+                            .list-inline {
+                                float: inline-end;
+                            }
+                            
+                            #carouselExampleInterval.img {
+                                width: 700px;
+                                margin-top: 100px;
+                                padding-left: 100px;
+                            }
+                            
+                            #navbar {
+                                margin-bottom: 100px;
+                            }
+                            
+                            .navbar_human {
+                                font-size: 30px;
+                            }
+                            
+                            #service {
+                                margin-bottom: 100px;
+                            }
+                            
+                            hr.botm-line {
+                                height: 3px;
+                                width: 60px;
+                                background: #ffb737;
+                                position: relative;
+                                border: 0;
+                                margin: 20px 0 20px 0;
+                            }
+                            
+                            .icon {
+                                color: darkcyan;
+                                font-size: 50px;
+                            }
+                            
+                            #time-to-vistors {
+                                text-align: center;
+                                font-size: 20px;
+                                /* display: block; */
+                            }
+                            
+                            #cards {
+                                /* position: fixed; */
+                                margin-bottom: 140px;
+                            }
+                            
+                            .card1 {
+                                margin-top: 80px;
+                                box-shadow: 0px 4px 8px 0px darkgray;
+                                margin-bottom: 50px;
+                            }
+                            
+                            .card2 {
+                                box-shadow: 0px 4px 8px 0px darkgray;
+                                margin-bottom: 100px;
+                            }
+                            
+                            .col-md-3 {
+                                margin-right: 100px;
+                            }
+                            
+                            .img {
+                                width: 220px;
+                                margin-top: 100px;
+                            }
+                            /********************************************/
+                            /********************************************/
+                            /********************************************/
+                            /********************************************/
+                            
+                            #patients-xs {
+                                height: 300px;
+                                background-color: #ebeff0;
+                            }
+                            
+                            .container-fluid {
+                                width: 50%;
+                                padding-left: 0px;
+                                padding-right: 0px;
+                            }
+                            
+                            .meetlogo {
+                                float: right;
+                                width: 700px;
+                                padding-right: 100px;
+                            }
+                            
+                            section .section-title {
+                                text-align: center;
+                                color: #0f1822;
+                                margin-bottom: 50px;
+                                text-transform: uppercase;
+                            }
+                            /**************/
+                            
+                            #rating {
+                                color: #fff;
+                                background-image: url(7899.jpg);
+                                /* background-color: #141114da; */
+                                margin-bottom: 100px;
+                                padding-top: 120px;
+                                padding-bottom: 120px;
+                            }
+                            /***************************************
+cta -2
+***************************************/
+                            
+                            #aboutus {
+                                background-color: rgb(41, 48, 46);
+                            }
+                            
+                            .white {
+                                color: #fff;
+                            }
+                            
+                            .icon-play,
+                            .icon-play:hover,
+                            .icon-play:focus {
+                                background-color: #0CB8B6;
+                                padding: 5px 10px;
+                                color: #fff;
+                                text-decoration: none;
+                                padding: 5px 17px;
+                                margin-top: 26px;
+                                display: block;
+                            }
+                            
+                            .text-primary {
+                                color: #0cb8b6;
+                            }
+                            
+                            .icon-mar {
+                                margin-right: 7px;
+                            }
+                            /*###################################################################*/
+                            
+                            #footer {
+                                background: #0f1822;
+                            }
+                            
+                            #footer h5 {
+                                padding-left: 10px;
+                                border-left: 3px solid #eeeeee;
+                                padding-bottom: 6px;
+                                margin-bottom: 20px;
+                                color: #ffffff;
+                            }
+                            
+                            #footer a {
+                                color: #ffffff;
+                                text-decoration: none !important;
+                                background-color: transparent;
+                                -webkit-text-decoration-skip: objects;
+                            }
+                            
+                            #footer ul.social li {
+                                padding: 3px 0;
+                            }
+                            
+                            #footer ul.social li a i {
+                                margin-right: 5px;
+                                font-size: 25px;
+                                -webkit-transition: .5s all ease;
+                                -moz-transition: .5s all ease;
+                                transition: .5s all ease;
+                            }
+                            
+                            #footer {
+                                padding-top: 60px;
+                                /* margin-top: 60px; */
+                                /* background-color: #0f1822; */
+                            }
+                            
+                            #footer ul.social li:hover a i {
+                                font-size: 30px;
+                                margin-top: -10px;
+                            }
+                            
+                            #footer ul.social li a,
+                            #footer ul.quick-links li a {
+                                color: #ffffff;
+                            }
+                            
+                            #footer ul.social li a:hover {
+                                color: #12cad6;
+                            }
+                            
+                            #footer ul.quick-links li {
+                                padding: 3px 0;
+                                -webkit-transition: .5s all ease;
+                                -moz-transition: .5s all ease;
+                                transition: .5s all ease;
+                            }
+                            
+                            #footer ul.quick-links li:hover {
+                                padding: 3px 0;
+                                margin-left: 5px;
+                                font-weight: 700;
+                            }
+                            
+                            #footer ul.quick-links li a i {
+                                margin-right: 5px;
+                            }
+                            
+                            #footer ul.quick-links li:hover a i {
+                                font-weight: 700;
+                            }
+                            
+                            .img-footer {
+                                width: 150px;
+                                position: relative;
+                                margin: 5px;
+                            }
+                            
+                            .img-footer:hover {
+                                transform: scale(1.14);
+                            }
+                            
+                            .h-footer {
+                                color: #eeeeee;
+                            }
+                            
+                            @media (max-width:767px) {
+                                #footer h5 {
+                                    padding-left: 0;
+                                    border-left: transparent;
+                                    padding-bottom: 0px;
+                                    margin-bottom: 10px;
+                                }
+                            }
+                            
+                            #contact {
+                                margin-top: 40px;
+                                margin-bottom: 100px;
+                            }
+                            
+                            #button-for-contact-us-page {
+                                margin-top: 15px;
+                                text-align: center;
+                            }
+                            
+                            .spancus:hover {
+                                color: #99d8d0;
+                            }
+                            
+                            .contactp {
+                                font-size: 10px;
+                                color: #204051;
+                            }
+                            
+                            #contact-link {
+                                color: #e84a5f;
+                                text-decoration: none;
+                            }
+                            
+                            .contact-button {
+                                background-color: #252525;
+                                font-family: sans-serif;
+                                font-size: 30px;
+                                border-radius: 15px;
+                                text-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+                                box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.2);
+                                border-color: gray;
+                            }

@@ -1,0 +1,214 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+body {
+    /* background-color: darkgrey; */
+}
+
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+
+/* page style css*/
+
+
+/*  و ده الستايل الخاص بالبار ستايل اللى من غير الجزء الخاص بالبحث*/
+
+
+/***************************/
+
+#my-navigation-bar {
+    margin: 50px;
+}
+
+.navabar {
+    display: flex;
+}
+
+ul.nav li.li-nav {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    transition: 0.5s;
+}
+
+ul.nav li.li-nav a {
+    display: block;
+    position: relative;
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(221, 207, 3);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul.nav:hover li.li-nav a {
+    transform: scale(1.5);
+    opacity: 0.4;
+    filter: blur(5px);
+}
+
+ul.nav li.li-nav a:hover {
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);
+}
+
+ul.nav li.li-nav a:before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgb(29, 38, 41);
+    border-radius: 15px;
+    transition: transform 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+
+ul.nav li.li-nav a:hover:before {
+    transition: transform 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+a:hover {
+    color: rgb(255, 246, 113);
+    text-decoration: none;
+}
+
+
+/***************************/
+
+
+/***************************/
+
+
+/************************************* و هنا نكون خلصنا الستايل بتاع البار اللى من غير الجز بتاع  البحث ************************************/
+
+
+/*###################################################################*/
+
+#header-imge {
+    height: 1200px;
+    /* background-color: #0f1822; */
+    background-image: url(imgeheader6.png);
+    width: inherit;
+    background-size: cover;
+}
+
+
+/*=================================================================*/
+
+hr.botm-line {
+    height: 3px;
+    width: 120px;
+    background: #ffb737;
+    position: relative;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
+
+
+/*===========================================================================*/
+
+#footer {
+    background: #0f1822;
+}
+
+#footer h5 {
+    padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+    padding: 3px 0;
+}
+
+#footer ul.social li a i {
+    margin-right: 5px;
+    font-size: 25px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer {
+    padding-top: 60px;
+    /* margin-top: 60px; */
+    /* background-color: #0f1822; */
+}
+
+#footer ul.social li:hover a i {
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+    color: #ffffff;
+}
+
+#footer ul.social li a:hover {
+    color: #12cad6;
+}
+
+#footer ul.quick-links li {
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+    margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+.img-footer {
+    width: 150px;
+    position: relative;
+    margin: 5px;
+}
+
+.img-footer:hover {
+    transform: scale(1.14);
+}
+
+.h-footer {
+    color: #eeeeee;
+}
+
+@media (max-width:767px) {
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+}

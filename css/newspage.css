@@ -1,0 +1,70 @@
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+    /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+    
+    #my-navigation-bar {
+        margin: 50px;
+    }
+    
+    ul.nav li.li-nav {
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        transition: 0.5s;
+    }
+    
+    ul.nav li.li-nav a {
+        display: block;
+        position: relative;
+        padding: 5px;
+        font-size: 18px;
+        color: cadetblue;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    
+    ul.nav:hover li.li-nav a {
+        transform: scale(1.5);
+        opacity: 0.4;
+        filter: blur(5px);
+    }
+    
+    ul.nav li.li-nav a:hover {
+        transform: scale(2);
+        opacity: 1;
+        filter: blur(0);
+    }
+    
+    ul.nav li.li-nav a:before {
+        content: '';
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background: rgb(29, 38, 41);
+        border-radius: 15px;
+        transition: transform 0.5s;
+        transform-origin: right;
+        transform: scaleX(0);
+        z-index: -1;
+    }
+    
+    ul.nav li.li-nav a:hover:before {
+        transition: transform 0.5s;
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+    /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+    
+    hr.botm-line {
+        height: 3px;
+        width: 120px;
+        background: #ffb737;
+        position: relative;
+        border: 0;
+        margin: 20px 0 20px 0;
+    }
